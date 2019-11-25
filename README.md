@@ -9,6 +9,11 @@ To use the TA-Lib service will require an installation of Python 3.5 or higher. 
 install [TA-Lib](http://ta-lib.org/). See the Troubleshooting section at
 https://github.com/mrjbq7/ta-lib for more information.
 
+**Note: It may be necessary to adapt your TA-Lib to be capable of handling values with many decimal
+places.** See
+https://github.com/mrjbq7/ta-lib/issues/157#issuecomment-367329661 or
+https://github.com/freqtrade/freqtrade/blob/develop/build_helpers/install_ta-lib.sh for workarounds.
+
 
 ## Installation
 You can install the TA-Lib from PyPI:
