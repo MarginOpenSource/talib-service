@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="margin_talib_service",
-    version="0.0.2",
+    version="0.0.3",
     author="Margin UG",
     author_email="contact@margin.io",
     description="Margin Strategy Editor SDK",
